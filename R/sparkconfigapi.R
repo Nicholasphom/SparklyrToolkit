@@ -21,7 +21,7 @@ getrclass <- function(){
   return(r_df_class)
 }
 
-nick_spark_connect <- function(){
+spark_connect <- function(){
   conf <- spark_config()   # Load variable with spark_config()
 
   conf$spark.executor.memory <- "12G"

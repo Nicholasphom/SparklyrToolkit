@@ -41,5 +41,5 @@ tryCatch({
 
 
   }, finally = {
-
+    return(table_definition)
   })}
